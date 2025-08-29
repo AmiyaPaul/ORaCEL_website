@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topText{
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 65px;
+    margin-top: 50px;
+    color: red;
+}
+
+
+.orangeLine{
+    max-width: 1200px;
+    height: 2px;
+    background-color: orange;
+    margin: auto;
+}
+
+
+.cont1{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tabs{
+    position: relative;
+    max-width: 350px;
+    height: 350px;
+    margin: 25px;
+    background-color: rgb(209, 209, 209);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.9);
+}
+
+.tabs:hover{
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+
+.cont1 a{
+    text-decoration: none;
+}
+
+
+.cont1 h2{
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    color: red;
+}
+
+.cont1 p{
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    color: black;
+}
+
+
+
+@media (max-width: 1249px) {
+    .topText{
+        max-width: 90vw;
+        font-size: 55px;
+        margin-top: 30px;
+    }
+
+
+    .orangeLine{
+        max-width: 90vw;
+    }
+}

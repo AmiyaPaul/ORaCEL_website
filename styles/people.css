@@ -1,0 +1,160 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topText{
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 65px;
+    margin-top: 50px;
+    color: red;
+}
+
+
+.orangeLine{
+    max-width: 1200px;
+    height: 2px;
+    background-color: orange;
+    margin: auto;
+}
+
+
+.content h2{
+    font-size: 30px;
+    font-weight: 100;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.cont1 h3{
+    font-size: 25px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.cont2{
+    background-color: rgb(36, 36, 36);
+    padding: 20px 0;
+}
+
+.cont2 h3{
+    font-size: 25px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.packet{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.infos {
+    position: relative;
+    max-width: 350px;
+    height: 550px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.infos img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.infos a {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  margin: 15px 0;
+  text-align: center;
+  color: #007bff;
+  font-weight: bold;
+  padding: 0 10px;
+  transition: box-shadow 0.5s ease;
+}
+
+.infos a:hover {
+  box-shadow: inset 2px 0 #007bff, inset -2px 0 #007bff;
+}
+
+.cont1 .infos p{
+    font-size: 20px;
+}
+
+.cont2 .infos p{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+@media (max-width: 1250px) {
+
+    .topText{
+        max-width: 90vw;
+        font-size: 55px;
+        margin-top: 30px;
+    }
+
+
+    .orangeLine{
+        max-width: 90vw;
+    }
+
+
+    .content h2{
+        font-size: 25px;
+        max-width: 90vw;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+    .cont1 h3{
+        max-width: 90vw;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .cont2{
+        padding: 10px 0;
+    }
+
+    .cont2 h3{
+        max-width: 90vw;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
