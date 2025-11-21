@@ -60,7 +60,7 @@ const playSlide = () =>{
 const startSlideShow = () => {
     slideInterval = setInterval(() =>{
         playSlide();
-    }, 8000);
+    }, 5000);
 };
 
 startSlideShow();
@@ -218,3 +218,4 @@ const stSlideShow2 = () => {
 };
 
 stSlideShow2();
+
