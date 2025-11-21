@@ -92,7 +92,7 @@
     bottom: 140px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 40px;
+    font-size: 30px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -813,6 +813,7 @@
     }
 
 }
+
 
 
 
