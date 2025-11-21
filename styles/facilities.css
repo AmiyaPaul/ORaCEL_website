@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+
+
+
+
+
+
+.topText{
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 65px;
+    margin-top: 50px;
+    color: red;
+}
+
+
+.orangeLine{
+    max-width: 1200px;
+    height: 2px;
+    background-color: orange;
+    margin: auto;
+}
+
+.content h4{
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.takeAtour {
+  display: block;            
+  width: fit-content;
+  text-decoration: none;
+  margin: 20px auto;
+  color: white;
+  padding: 10px 20px;
+  background-color: red;
+  text-align: center;
+  border-radius: 8px;        
+  transition: background 0.3s ease;
+}
+
+.takeAtour:hover {
+  background-color: darkred;
+}
+
+
+.cont1 h2{
+    max-width: 1200px;
+    margin: 20px auto;
+    font-size: 40px;
+    color: red;
+}
+
+.cont2 h2{
+    max-width: 1200px;
+    margin: 20px auto;
+    font-size: 40px;
+    color: red;
+}
+
+.cont2 h5{
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+
+.tabs{
+    position: relative;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.tabs h3{
+    color: red;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.tabs .imgtext{
+    width: 100%;
+}
+
+.imgtext img{
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.imgtext p{
+    max-width: 100%;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.imgtext ul {
+  list-style: none;         
+  padding-left: 0;
+}
+
+.imgtext li {
+  position: relative;
+  padding-left: 20px;       
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.imgtext li::before {
+  content: "›";             
+  position: absolute;
+  left: 0;
+  color: red;              
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.cont1 a{
+    text-decoration: none;
+    color: red;
+    transition: background 0.5s ease;
+}
+
+.cont1 a:hover{
+    background-color: red;
+    color: white;
+}
+
+.cont2 a{
+    text-decoration: none;
+    color: red;
+    transition: background 0.5s ease;
+}
+
+.cont2 a:hover{
+    background-color: red;
+    color: white;
+}
+
+.cont2{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 10px 0;
+}
+
+.Wline{
+    max-width: 1200px;
+    height: 2px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.Bline{
+    max-width: 1200px;
+    height: 2px;
+    background-color: black;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1250px) {
+    .topText{
+        max-width: 90vw;
+        font-size: 55px;
+        margin-top: 30px;
+    }
+
+
+    .orangeLine{
+        max-width: 90vw;
+    }
+
+    .content h4{
+        max-width: 84vw;
+    }
+    
+    
+
+    .cont1 h2{
+        max-width: 90vw;
+    }
+
+    .cont2 h2{
+        max-width: 90vw;
+    }
+
+
+    .tabs{
+        max-width: 84vw;
+    }
+
+    .Wline{
+        max-width: 90vw;
+    }
+
+    .Bline{
+        max-width: 90vw;
+    }
+}

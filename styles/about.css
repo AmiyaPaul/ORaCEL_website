@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+.topText{
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 65px;
+    margin-top: 50px;
+    color: red;
+}
+
+
+.orangeLine{
+    max-width: 1200px;
+    height: 2px;
+    background-color: orange;
+    margin: auto;
+}
+
+
+/* cont1 */
+
+
+.cont1{
+    padding: 50px;
+}
+
+.cont1 h2{
+    color: red;
+    font-size: 40px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cont1 p{
+    max-width: 1200px;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* cont2 */
+
+
+
+
+.cont2{
+    padding: 50px;
+    background-color: rgb(36, 36, 36);
+}
+
+.cont2 h2{
+    color: white;
+    font-size: 40px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.cont2 p{
+    max-width: 1200px;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.content a{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.content a:hover{
+    background-color: red;
+    color: white;
+}
+
+.bbx{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.cont2 .set1 .textBox{
+    width: 550px;
+}
+
+
+.cont2 .set1 img{
+    width: 450px;
+}
+
+
+
+/* cont3 */
+
+
+
+
+.cont3{
+    padding: 50px;
+}
+
+.cont3 h2{
+    color: red;
+    font-size: 40px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cont3 p{
+    max-width: 550px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+.cont3 img{
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* media */
+
+
+@media (min-width: 830px) and (max-width: 1249px) {
+    
+    .topText{
+        width: 90vw;
+        font-size: 55px;
+    }
+
+
+    .orangeLine{
+        max-width: 90vw;
+    }
+
+
+    /* cont1 */
+
+
+    .cont1{
+        padding: 30px;
+    }
+
+
+    /* cont2 */
+
+
+
+
+    .cont2{
+        padding: 30px;
+    }
+
+
+    .bbx{
+        max-width: 90vw;
+        flex-wrap: wrap;
+    }
+
+    .cont2 .set1 .textBox{
+        width: 90vw;
+    }
+
+
+    .cont2 .set1 img{
+        width: 90vw;
+    }
+
+
+
+    /* cont3 */
+
+
+
+
+    .cont3{
+        padding: 30px;
+    }
+
+    .cont3 p{
+        max-width: 90vw;
+    }
+
+
+    .cont3 img{
+        width: 90vw;
+        height: 50vw;
+    }
+
+
+}
+
+
+@media (min-width: 400px) and (max-width: 829px) {
+
+    .topText{
+        width: 90vw;
+        font-size: 55px;
+    }
+
+
+    .orangeLine{
+        max-width: 90vw;
+    }
+
+
+    /* cont1 */
+
+
+    .cont1{
+        padding: 30px;
+    }
+
+
+    /* cont2 */
+
+
+
+
+    .cont2{
+        padding: 30px;
+    }
+
+
+    .bbx{
+        max-width: 90vw;
+        flex-wrap: wrap;
+    }
+
+    .cont2 .set1 .textBox{
+        width: 90vw;
+    }
+
+
+    .cont2 .set1 img{
+        width: 90vw;
+    }
+
+
+
+    /* cont3 */
+
+
+
+
+    .cont3{
+        padding: 30px;
+    }
+
+    .cont3 p{
+        max-width: 90vw;
+    }
+
+
+    .cont3 img{
+        width: 90vw;
+        height: 50vw;
+    }
+    
+
+}
+
+
+@media (max-width: 399px) {
+    .topText{
+        width: 90vw;
+        font-size: 55px;
+    }
+
+
+    .orangeLine{
+        max-width: 90vw;
+    }
+
+
+    /* cont1 */
+
+
+    .cont1{
+        padding: 30px;
+    }
+
+
+    /* cont2 */
+
+
+
+
+    .cont2{
+        padding: 30px;
+    }
+
+
+    .bbx{
+        max-width: 90vw;
+        flex-wrap: wrap;
+    }
+
+    .cont2 .set1 .textBox{
+        width: 90vw;
+    }
+
+
+    .cont2 .set1 img{
+        width: 90vw;
+    }
+
+
+
+    /* cont3 */
+
+
+
+
+    .cont3{
+        padding: 30px;
+    }
+
+
+    .cont3 img{
+        width: 90vw;
+        height: 50vw;
+    }
+
+}
+
+
+
+
+
