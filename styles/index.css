@@ -16,6 +16,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -28,7 +29,7 @@
 .frame{
     position: relative;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     height: 800px;
     overflow: hidden;
     margin: 50px auto 50px;
@@ -188,79 +189,102 @@
 
 
 
+
+
 /* Cont2 */
 
 .cont2 {
-  position: relative;
-  width: 100%;
+  max-width: 100%;
   background-color: rgb(36, 36, 36);
 }
 
 .cont2 h2 {
-  text-align: center;
   color: white;
-  font-size: 3rem;
+  font-size: 2.2rem;
   padding-top: 50px;
+  padding-left: 20px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.hedUL{
+    text-decoration: underline red;
+    text-underline-offset: 10px;
 }
 
 
 .cont2_set {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   justify-content: center;
-  margin-top: 50px;
+  padding-bottom: 50px;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .cont2_tabs {
+  margin: 10px 20px;
   position: relative;
-  height: 420px;
-  width: 300px;
-  background-color: white;
-  margin: 20px;
-  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
 }
 
-.cont2_tabs:hover {
-  margin-top: -5px;
+
+.cont2_tabs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
-.cont2_tabs img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+.cont2_tabs .txtbox{
+    position: absolute;
+    text-align: center;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    color: white;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.2), rgba(0,0,0,0));
 }
 
-.cont2_tabs h1 {
-  width: 100%;
-  margin-top: 10px;
-  text-align: center;
-  font-size: 1.8rem;
+.cont2_tabs .txtbox h2{
+    position: absolute;
+    bottom: 70px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 0;
 }
 
-.cont2_tabs a {
-  position: absolute;
-  text-decoration: none;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 35px;
-  line-height: 35px;
-  width: 120px;
-  color: red;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-align: center;
-  border: 2px solid red;
-  background-color: white;
-  cursor: pointer;
+.cont2_tabs .txtbox a{
+    position: absolute;
+    bottom: 15px;
+    text-decoration: none;
+    transform: translateX(-50%);
+    color: white;
+    border: 1px solid white;
+    padding: 5px 8px;
+    transition: all 0.5s;
+    font-size: 10px;
+    font-weight: 800;
 }
 
-.cont2_tabs a:hover {
-  color: white;
-  background-color: red;
+.cont2_tabs .txtbox a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+}
+
+
+.cont2 p{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 20px 80px 20px;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
 }
 
 
@@ -273,141 +297,84 @@
 }
 
 .cont4 h1{
-    text-align: center;
-    color: white;
-    font-size: 3rem;
-    padding: 50px;
+  color: white;
+  font-size: 2.2rem;
+  padding: 50px 0 50px 20px;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .cont4All{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 50px;
+    max-width: 1400px;
+    margin: auto;
 }
 
-.cont4All img{
-    max-width: 600px;
-    height: 400px;
-    object-fit: cover;
-    padding: 0;
-}
 
-.cont4 .text_box{
-    width: 500px;
-    padding: 0px;
-}
-
-.cont4 .text_box h4{
-    font-size: 25px;
-}
-
-.cont4 .text_box a{
+.cont4 .img1{
     display: block;
-    text-decoration: none;
+    margin: 10px 20px;
+    position: relative;
+    width: 600px;
+    overflow: hidden;
+}
+
+.cont4 .img1 img{
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+
+.cont4 .img1 .txtbox{
+    position: absolute;
+    text-align: center;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
     color: white;
-    margin-bottom: 20px;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.2), rgba(0,0,0,0));
 }
 
-
-/* collage 1 */
-
-
-.collage1{
-    position: relative;
-    max-width: 450px;
-    height: 300px;
-    overflow: hidden;
-}
-
-.collage1 .imageSlider1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    transition: transform 1s ease;
-}
-
-.collage1 .imageSlider1 img{
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 0;
-    padding: 0;
-}
-
-.btnPages1 {
+.cont4 .img1 .txtbox h2{
     position: absolute;
-    display: flex;
+    bottom: 70px;
     width: 100%;
-    bottom: 0px;
-    justify-content: center;
-    z-index: 4;
 }
 
-.btnPage1 {
-    position: relative;
-    z-index: 5;
-    width: 10px;
-    height: 10px;
-    margin: 10px;
-    border: 1px solid white;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: transparent;
-    transition: background-color 0.3s ease;
-}
-
-
-/* collage 2 */
-
-
-.collage2{
-    max-width: 450px;
-    height: 300px;
-    position: relative;
-    overflow: hidden;
-}
-
-.collage2 .imageSlider2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    transition: transform 1s ease;
-}
-
-.collage2 .imageSlider2 img{
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 0;
-    padding: 0;
-}
-
-.btnPages2 {
+.cont4 .img1 .txtbox a{
     position: absolute;
-    display: flex;
-    width: 100%;
-    bottom: 0px;
-    justify-content: center;
-    z-index: 4;
-}
-
-.btnPage2 {
-    position: relative;
-    z-index: 5;
-    width: 10px;
-    height: 10px;
-    margin: 10px;
+    bottom: 15px;
+    text-decoration: none;
+    transform: translateX(-50%);
+    color: white;
     border: 1px solid white;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: transparent;
-    transition: background-color 0.3s ease;
+    padding: 5px 8px;
+    transition: all 0.5s;
+    font-size: 10px;
+    font-weight: 800;
 }
 
+.cont4 .img1 .txtbox a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+}
+
+.cont4 h2{
+    font-size: 20px;
+}
+
+.cont4 p{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 20px 80px 20px;
+    font-size: 18px;
+    font-style: italic;
+}
 
 
 
@@ -415,52 +382,27 @@
 
 
 .cont5 h1{
-    text-align: center;
-    font-size: 3rem;
-    padding: 50px;
+    font-size: 2.2rem;
+    padding: 50px 0 50px 20px;
+    max-width: 600px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .cont5All{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 50px;
+    max-width: 1400px;
+    margin: auto;
 }
-
-/* .cont5 .text_box{
-    width: 500px;
-    padding: 40px;
-}
-
-
-.cont5 .text_box h2{
-    font-size: 28px;
-}
-
-.cont5 .text_box h4{
-    font-size: 20px;
-    margin: 15px 0 80px 0;
-}
-
-.cont5 .text_box a{
-    text-decoration: none;
-    color: black;
-}
-
-.cont5 .text_box a:hover{
-    color: red;
-}
-
-.cont5All img{
-    width: 450px;
-    height: 300px;
-    object-fit: cover;
-} */
 
 .cont5 .img1{
     display: block;
     margin: 10px 20px;
     position: relative;
-    max-width: 600px;
+    width: 600px;
     overflow: hidden;
 }
 
@@ -496,12 +438,22 @@
     border: 1px solid white;
     padding: 5px 8px;
     transition: all 0.5s;
+    font-size: 10px;
+    font-weight: 800;
 }
 
 .cont5 .img1 .txtbox a:hover{
     background-color: white;
     color: black;
     transition: all 0.5s;
+}
+
+.cont5 p{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 20px 80px 20px;
+    font-size: 18px;
+    font-style: italic;
 }
 
 
@@ -514,7 +466,7 @@
 /* responsive */
 
 
-@media (max-width: 1250px) {
+@media (max-width: 1450px) {
     .frame{
         width: 100vw;
         height: 75vw;
@@ -522,7 +474,7 @@
 }
 
 
-@media (min-width: 830px) and (max-width: 1249px) {
+@media (min-width: 830px) and (max-width: 1449px) {
    
 
     .frame{
