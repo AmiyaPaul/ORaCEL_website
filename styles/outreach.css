@@ -186,23 +186,6 @@
 
 
 
-
-    .packet{
-        max-width: 90vw;
-    }
-
-    .packet h3{
-        margin-bottom: 10px;
-        font-size: 30px;
-    }
-
-    .packet p{
-        margin-bottom: 10px;
-        font-size: 25px;
-    }
-
-
-
     .cont2 h2{
         max-width: 90vw;
     }
@@ -214,7 +197,7 @@
 }
 
 
-@media (max-width: 829px) {
+@media (min-width: 601px) and (max-width: 829px) {
     
     .topText{
         max-width: 90vw;
@@ -230,27 +213,6 @@
 
 
 
-    .packet{
-        max-width: 90vw;
-    }
-
-    .packet h3{
-        margin-bottom: 10px;
-        font-size: 30px;
-    }
-
-    .packet p{
-        margin-bottom: 10px;
-        font-size: 25px;
-    }
-
-    .packet img{
-        max-width: 90vw;
-        height: 70vw;
-    }
-
-
-
     .cont2 h2{
         max-width: 90vw;
     }
@@ -259,4 +221,43 @@
         max-width: 90vw;
     }
 
+}
+
+
+@media (min-width: 200px) and (max-width: 600px) {
+
+    .topText{
+        max-width: 90vw;
+        font-size: 55px;
+        margin-top: 30px;
+    }
+
+
+    .orangeLine{
+        max-width: 90vw;
+    }
+
+
+    .cont1{
+        max-width: 90vw;
+    }
+
+    .outpack{
+        max-width: 90%;
+    }
+
+    .imgtab{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .cont2 h2{
+        max-width: 90vw;
+    }
+
+    .cont2 a{
+        max-width: 90vw;
+    }
 }
