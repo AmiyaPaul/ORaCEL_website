@@ -208,7 +208,8 @@
 }
 
 .hedUL{
-    text-decoration: underline red;
+    text-decoration: underline;
+    text-decoration-color: red;
     text-underline-offset: 10px;
 }
 
