@@ -52,3 +52,19 @@ reDropDiv.addEventListener('mouseover', () => {
 reDropDiv.addEventListener('mouseout', () => {
   reDropDiv.style.display = "none";
 });
+
+
+
+const tabs = document.querySelectorAll('.outpack');
+
+tabs.forEach(tab => {
+  const btn = tab.querySelector('.learnMore-btn');
+  const box = tab.querySelector('.slide-txtbox');
+
+  btn.addEventListener('click', () => {
+    const isExpanded = box.classList.toggle('expanded');
+    btn.textContent = isExpanded ? 'Learn Less' : 'Learn More';
+  });
+});
+
+

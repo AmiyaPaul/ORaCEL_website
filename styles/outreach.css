@@ -38,42 +38,105 @@
 
 
 
-.packet{
+.cont1{
     max-width: 1200px;
-    margin: 30px auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outpack{
+    max-width: 575px;
+    margin: 20px auto;
+}
+
+.imgtab{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+.imgtab img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.imgtab .txtbox{
+    width: 100%;
+    padding-top: 100px;
+    position: absolute;
+    bottom: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.6), rgba(0,0,0,0));
 }
 
-.packet h3{
-    margin-bottom: 10px;
-    font-size: 30px;
-}
-
-.packet p{
-    margin-bottom: 10px;
-    font-size: 25px;
-}
-
-.packet img{
-    max-width: 800px;
-    height: 600px;
-    object-fit: cover;
-    margin: 10px auto;
-
-}
-
-.packet a{
-    text-decoration: none;
-    color: red;
-    transition: all 0.5s ease;
-}
-
-
-.packet a:hover{
-    background-color: red;
+.imgtab .txtbox h2{
     color: white;
 }
+
+
+.imgtab .txtbox button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 0 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.imgtab .txtbox button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+
+.slide-txtbox{
+    width: 100%;
+    max-height: 0;
+    background-color: gray;
+    color: white;
+    transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.slide-txtbox.expanded{
+    max-height: 1000px;
+}
+
+
+.slide-txtbox p{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+.slide-txtbox p a{
+    color: orange;
+    text-decoration: none;
+}
+
+.slide-txtbox p a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+.img2{
+    transform: translateY(-25%);
+}
+
+
+
+
+
+
 
 
 .cont2{
