@@ -63,7 +63,7 @@ tabs.forEach(tab => {
 
   btn.addEventListener('click', () => {
     const isExpanded = box.classList.toggle('expanded');
-    btn.textContent = isExpanded ? 'Learn Less' : 'Learn More';
+    btn.style.textDecoration = isExpanded ? 'underline' : 'none';
   });
 });
 
