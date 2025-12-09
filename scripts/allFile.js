@@ -55,15 +55,27 @@ reDropDiv.addEventListener('mouseout', () => {
 
 
 
-const tabs = document.querySelectorAll('.outpack');
+const outTabs = document.querySelectorAll('.outpack'); 
 
-tabs.forEach(tab => {
-  const btn = tab.querySelector('.learnMore-btn');
-  const box = tab.querySelector('.slide-txtbox');
+outTabs.forEach(outTabs => { 
+  const btn = outTabs.querySelector('.learnMore-btn'); 
+  const box = outTabs.querySelector('.slide-txtbox'); 
 
-  btn.addEventListener('click', () => {
-    const isExpanded = box.classList.toggle('expanded');
-    btn.style.textDecoration = isExpanded ? 'underline' : 'none';
+  btn.addEventListener('click', () => { 
+    const isExpanded = box.classList.toggle('expanded'); 
+    btn.textContent = isExpanded ? 'Learn Less' : 'Learn More'; 
+  }); 
+});
+
+const facTabs = document.querySelectorAll('.facpack'); 
+
+facTabs.forEach(facTabs => { 
+  const btnA = facTabs.querySelector('.learnMore-btn-a'); 
+  const boxA = facTabs.querySelector('.slide-txtbox'); 
+
+  btnA.addEventListener('click', () => {
+    const isExpanded = boxA.classList.toggle('expanded');
+    btnA.style.textDecoration = isExpanded ? 'underline' : 'none';
   });
 });
 
