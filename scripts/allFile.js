@@ -52,3 +52,31 @@ reDropDiv.addEventListener('mouseover', () => {
 reDropDiv.addEventListener('mouseout', () => {
   reDropDiv.style.display = "none";
 });
+
+
+
+const outTabs = document.querySelectorAll('.outpack'); 
+
+outTabs.forEach(outTabs => { 
+  const btn = outTabs.querySelector('.learnMore-btn'); 
+  const box = outTabs.querySelector('.slide-txtbox'); 
+
+  btn.addEventListener('click', () => { 
+    const isExpanded = box.classList.toggle('expanded'); 
+    btn.textContent = isExpanded ? 'Learn Less' : 'Learn More'; 
+  }); 
+});
+
+const facTabs = document.querySelectorAll('.facpack'); 
+
+facTabs.forEach(facTabs => { 
+  const btnA = facTabs.querySelector('.learnMore-btn-a'); 
+  const boxA = facTabs.querySelector('.slide-txtbox'); 
+
+  btnA.addEventListener('click', () => {
+    const isExpanded = boxA.classList.toggle('expanded');
+    btnA.style.textDecoration = isExpanded ? 'underline' : 'none';
+  });
+});
+
+
